@@ -22,7 +22,9 @@ void	S_Eratosthenes(int n)
 
 int	main()
 {
-	int n = 1000;
+	int n;
+	printf("Please enter n \n");
+	scanf("%d", &n);
 	printf("The prime numbers smaller than or equal to %d are: \n", n);
 	S_Eratosthenes(n);
 	return (0);
